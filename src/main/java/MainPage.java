@@ -42,7 +42,7 @@ public class MainPage {
     //Работа с поиском
     @FindBy(xpath = "(//div[@class=\"product__title\"])[1]")
     private WebElement firstElementInSearch;
-;
+
     //Методы для поиска
     public MainPage search(String wordForSearch){
         search.sendKeys(wordForSearch);
@@ -89,14 +89,5 @@ public class MainPage {
         weather.click();
         return new WeatherPage(driver);
     }
-    public MainPage news(){
-        news.click();
-        return this;
-    }
-
-
-
-
-
 
 }

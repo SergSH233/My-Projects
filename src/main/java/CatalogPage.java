@@ -186,7 +186,7 @@ public class CatalogPage {
         driver.findElement(store).click();
         selectRadioButton("21vek.by");
         selectRadioButton("Sli.by");
-//        selectRadioButton("SOCKET.BY");
+        selectRadioButton("SOCKET.BY");
         selectRadioButton("В наличии на складе");
         selectRadioButton("2018");
         selectRadioButton("2019");
@@ -211,7 +211,7 @@ public class CatalogPage {
         driver.findElement(sorting).click();
         driver.findElement(chip).click();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(1500);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }

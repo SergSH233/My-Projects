@@ -7,5 +7,4 @@ public class HomeAndFlatPage {
     public HomeAndFlatPage(WebDriver driver) {
         this.driver = driver;
     }
-    //private By
 }
